@@ -1,0 +1,73 @@
+[debug] [2021-12-30T08:16:19.410Z] ----------------------------------------------------------------------
+[debug] [2021-12-30T08:16:19.420Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kenet\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-30T08:16:19.423Z] CLI Version:   10.0.1
+[debug] [2021-12-30T08:16:19.424Z] Platform:      win32
+[debug] [2021-12-30T08:16:19.424Z] Node Version:  v16.13.1
+[debug] [2021-12-30T08:16:19.427Z] Time:          Thu Dec 30 2021 03:16:19 GMT-0500 (hora estándar oriental)
+[debug] [2021-12-30T08:16:19.428Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-30T08:16:19.760Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-30T08:16:19.762Z] > authorizing via signed-in user (jairsan2618@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kenet
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-30T08:16:30.865Z] Using project from CLI flag: webhosting-5f6a9
+[debug] [2021-12-30T08:16:30.877Z] > refreshing access token with scopes: []
+[debug] [2021-12-30T08:16:30.880Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-30T08:16:31.231Z] <<< HTTP RESPONSE 200 {"date":"Thu, 30 Dec 2021 08:16:28 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-30T08:16:31.279Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/webhosting-5f6a9 [none]
+[debug] [2021-12-30T08:16:31.704Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/webhosting-5f6a9 200
+[debug] [2021-12-30T08:16:31.705Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/webhosting-5f6a9 {"projectId":"webhosting-5f6a9","projectNumber":"391853573839","displayName":"WebHosting","name":"projects/webhosting-5f6a9","resources":{"hostingSite":"webhosting-5f6a9"},"state":"ACTIVE"}
+[info] i  Using project webhosting-5f6a9 (WebHosting) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-12-30T08:17:00.649Z] ----------------------------------------------------------------------
+[debug] [2021-12-30T08:17:00.658Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kenet\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-30T08:17:00.661Z] CLI Version:   10.0.1
+[debug] [2021-12-30T08:17:00.662Z] Platform:      win32
+[debug] [2021-12-30T08:17:00.663Z] Node Version:  v16.13.1
+[debug] [2021-12-30T08:17:00.666Z] Time:          Thu Dec 30 2021 03:17:00 GMT-0500 (hora estándar oriental)
+[debug] [2021-12-30T08:17:00.667Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-30T08:17:01.050Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-30T08:17:01.053Z] > authorizing via signed-in user (jairsan2618@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kenet
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

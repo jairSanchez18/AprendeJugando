@@ -1,0 +1,12 @@
+i{
+    padding-right: 5px;
+}
+.colum input, .colum button{
+    width: 100%;
+}
+.colum button{
+    margin-top: 8px;
+}
+.line-c{
+    border-top: 1px solid rgba(0, 0, 0, 0.356);
+}

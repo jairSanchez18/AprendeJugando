@@ -1,0 +1,116 @@
+.nav-item a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar-brand{
+    text-decoration: none;
+    font-weight: 600;
+}
+.Topics{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Topics li{
+    list-style: none;
+}
+.line{
+    border-top: 1px solid white;
+}
+.list-group-item{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px;
+}
+.colornav{
+    background-color: white;
+    color: black;
+}
+.colornav .navbar-toggler{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.navbar-toggler:hover{
+    background-color: rgba(0, 0, 0, 0.151);
+}
+.offcanvas-body ul li{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+.offcanvas-body ul li:hover{
+    background-color: rgba(0, 0, 0, 0.151);
+}
+.form{
+    margin-left:30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+@media screen and (max-width:700px) {
+    .form{
+        display: block;
+    }
+
+    .form-floating label{
+        font-size: 14px;
+    }
+    .inic-ses{
+        margin-top: 10px;
+    }
+}
+.enviar{
+    float:right;
+    margin: 20px;
+}
+.form-floating{
+    margin-top: 10px;
+}
+.inic-ses{
+    margin-left: 15px;
+}
+.in-busqu{
+    width: 500px;
+}
+.bu-busq{
+    border-radius: 100px;
+}
+.menu-info{
+    width: 100%;
+}
+
+@media screen and (max-width:700px) {
+    .in-busqu{
+        width: 100%;
+    }
+
+    .inic-ses{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin: 5px;
+        margin-top: 10px;
+    }
+}
+.busqueda{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.in-busqu2{
+    width: 100%;
+}
+.result{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+@media screen and (max-width:700px) {
+    .result{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
